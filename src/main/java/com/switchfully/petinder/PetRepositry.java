@@ -12,7 +12,6 @@ import java.util.List;
 public class PetRepositry {
 
     public List<Pet> getAllPets(){
-        return List.of(new Pet(1,"tequila", Kind.CAT,"aggressive cat")
-        ,new Pet(2,"Ruby",Kind.DOG,"Friendly dog"));
+        return List.of(new Pet(1,"Je t'aime mon coeur", Kind.CAT,""));
     }
 }
